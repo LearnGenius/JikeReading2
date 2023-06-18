@@ -1,7 +1,7 @@
 <template>
 	<view class="outView">
 		<view class="readingNowBox">
-			正在读...
+			正在读...sdfsd
 		</view>
 	</view>
 </template>
