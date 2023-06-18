@@ -1,12 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	    ,{
+	    {
             "path" : "pages/homePage/homePage",
             "style" :                                                                                    
             {
@@ -53,28 +47,28 @@
 	
 	"tabBar": {
 			"color": "#7A7E83",
-			"selectedColor": "#3cc51f",
+			"selectedColor": "#000000",
 			"borderStyle": "black",
 			"backgroundColor": "#ffffff",
 			"list": [{
 				"pagePath": "pages/homePage/homePage",
-				"iconPath": "static/bottomNavigationIcon/product-related.png",
-				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
-				"text": "现在读"
+				"iconPath": "static/buttomIcons/read-fill (1).png",
+				"selectedIconPath": "static/buttomIcons/read-fill.png",
+				"text": "正在读"
 			}, {
 				"pagePath": "pages/booksLibrary/booksLibrary",
-				"iconPath": "static/bottomNavigationIcon/product-related.png",
-				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"iconPath": "static/buttomIcons/library (1).png",
+				"selectedIconPath": "static/buttomIcons/library.png",
 				"text": "书库"
 			}, {
 				"pagePath": "pages/chatGPT/chatGPT",
-				"iconPath": "static/bottomNavigationIcon/product-related.png",
-				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"iconPath": "static/buttomIcons/Chatbot (1).png",
+				"selectedIconPath": "static/buttomIcons/Chatbot.png",
 				"text": "bookAI"
 			}, {
 				"pagePath": "pages/Mine/Mine",
-				"iconPath": "static/bottomNavigationIcon/product-related.png",
-				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"iconPath": "static/buttomIcons/mine_circle_fill (1).png",
+				"selectedIconPath": "static/buttomIcons/mine_circle_fill.png",
 				"text": "账户"
 			}]
 		}
