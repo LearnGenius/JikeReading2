@@ -6,12 +6,76 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/homePage/homePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "即刻阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/booksLibrary/booksLibrary",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chatGPT/chatGPT",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "bookAI",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Mine/Mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	
+	"tabBar": {
+			"color": "#7A7E83",
+			"selectedColor": "#3cc51f",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [{
+				"pagePath": "pages/homePage/homePage",
+				"iconPath": "static/bottomNavigationIcon/product-related.png",
+				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"text": "现在读"
+			}, {
+				"pagePath": "pages/booksLibrary/booksLibrary",
+				"iconPath": "static/bottomNavigationIcon/product-related.png",
+				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"text": "书库"
+			}, {
+				"pagePath": "pages/chatGPT/chatGPT",
+				"iconPath": "static/bottomNavigationIcon/product-related.png",
+				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"text": "bookAI"
+			}, {
+				"pagePath": "pages/Mine/Mine",
+				"iconPath": "static/bottomNavigationIcon/product-related.png",
+				"selectedIconPath": "static/bottomNavigationIcon/product-related (1).png",
+				"text": "账户"
+			}]
+		}
 }
